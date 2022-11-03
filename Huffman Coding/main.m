@@ -4,7 +4,7 @@
 
 clear all; clc; close all;
 
-input = 'this string is going to get huffman encoded and decoded'
+input = 'HuffmannEncoding'
 
 [distribution_symbols, huffmancellarray] = huffmancell(input)
 
